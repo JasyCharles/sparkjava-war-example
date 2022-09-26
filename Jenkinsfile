@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'ubuntu'}
+    agent {label 'jasive_nodo'}
     stages {
         stage('download') {
             steps {
